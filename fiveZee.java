@@ -177,7 +177,7 @@ public class fiveZee {
 				}
 			}
 			for (int i = 0; i < par.length; i++) {
-				if (par[i] == 3) {
+				if (par[i] >= 3) {
 					scoreboard[6] = dice[0] + dice [1] + dice [2] + dice [3] + dice [4];
 				}
 			}
@@ -194,7 +194,7 @@ public class fiveZee {
 				}
 			}
 			for (int i = 0; i < par.length; i++) {
-				if (par[i] == 4) {
+				if (par[i] >= 4) {
 					scoreboard[7] = dice[0] + dice [1] + dice [2] + dice [3] + dice [4];
 				}
 			}
